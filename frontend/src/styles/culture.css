@@ -1,0 +1,40 @@
+@import url('culture/base.css');
+@import url('culture/hero.css');
+@import url('culture/search.css');
+@import url('culture/grid.css');
+@import url('culture/cards.css');
+@import url('culture/pagination.css');
+@import url('culture/responsive.css');
+
+.restaurant-name-link {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+.restaurant-name-link:hover .restaurant-name {
+    color: #333;
+    text-decoration: underline;
+}
+
+.nav-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 1.4rem;
+    height: 1.4rem;
+    background-color: rgb(255 255 255 / 90%);
+    color: #6b7280;
+    border-radius: 50%;
+    text-decoration: none;
+    transition: all 0.2s ease;
+    font-size: 0.6rem;
+    border: 1px solid rgb(0 0 0 / 5%);
+}
+
+.nav-arrow:hover {
+    background-color: var(--color-brand) !important;
+    color: #fff !important;
+    border-color: var(--color-brand);
+    transform: scale(1.1);
+}
